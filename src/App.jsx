@@ -11,9 +11,6 @@ function App() {
         `https://newsapi.org/v2/everything?q=${inputState}&from=2023-12-15&sortBy=publishedAt&apiKey=e17108e18f5b429bb5bde2eac9480b34&language=en`
       );
       setResState(response);
-      response.data.articles.map((item, index) => {
-        index !== 5 && console.log(index);
-      });
     }, 500);
     return () => clearTimeout(delayInputTimeoutId);
   }, [inputState]);
