@@ -4,7 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -16,6 +15,10 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+#smallButton {
+  background-color: darkgrey;
 }
 
 @keyframes logo-spin {
@@ -38,5 +41,5 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #b27e7e;
 }
